@@ -17,7 +17,7 @@ class CustomerSeeder extends Seeder
   public function run()
   {
     //
-    for ($i=0; $i < 900; $i++) {
+    for ($i=0; $i < 1000; $i++) {
       $randomGender= rand(0,1);
       DB::table('customers')->insert([
         'first_name' => Str::random(10),

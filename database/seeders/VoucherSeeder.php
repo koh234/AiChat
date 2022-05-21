@@ -15,7 +15,7 @@ class VoucherSeeder extends Seeder
     public function run()
     {
         //
-        for ($i=0; $i < 3000; $i++) {
+        for ($i=0; $i < 1000; $i++) {
           DB::table('vouchers')->insert([
             'code' => Str::random(10),
           ]);
